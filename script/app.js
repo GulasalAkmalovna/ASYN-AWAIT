@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     addProductBtn.onclick = () => {
-        modalTitle.textContent = 'Yangi mahsulot qo\'shish';
+        modalTitle.textContent = 'Add New Products';
         showModal();
     };
     const loadProducts = async () => {
