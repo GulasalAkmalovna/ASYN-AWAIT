@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <img src="${product.image}" alt="${product.name}">
                 <h3>${product.title}</h3>
                 <p>${product.price} so'm</p>
-                <button onclick="editProduct('${product.id}', '${product.name}', ${product.price}, '${product.image}')">Tahrirlash</button>
+                <button onclick="editProduct('${product.id}', '${product.name}', ${product.price}, '${product.image}')">Change</button>
             `;
             productsContainer.appendChild(productCard);
         });
